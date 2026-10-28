@@ -1,0 +1,27 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Version control & Git
+.git/
+.gitignore
+
+# Environment variables & secrets (CRITICAL: never bake secrets into image)
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Documentation and project notes
+docs/
+*.md
